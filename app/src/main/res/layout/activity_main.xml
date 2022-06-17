@@ -86,7 +86,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/numero_quadro"
+            android:id="@+id/numero_quatro"
             style="@style/Numbers_Button"
             android:text="4" />
 
