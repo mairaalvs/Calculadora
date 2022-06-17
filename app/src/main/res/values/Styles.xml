@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Container_Button"> <!-- configurações pra todos os botoes-->
+        <item name="android:layout_width">0dp</item> <!-- 0dp pois botao n vai ter uma largura especifica-->
+        <item name="android:layout_height">match_parent</item> <!-- altura do botao vai pegar todo espaco disponivel do container -->
+        <item name="android:layout_weight">1</item> <!-- 1 de epaço no container -->
+        <item name="android:textSize">28sp</item> <!-- tamanho das letras -->
+        <item name="android:gravity">center</item> <!-- centralizo as letras -->
+        <item name="android:textStyle">bold</item> <!-- numeros em negrito -->
+        <item name="android:layout_margin">0.5dp</item> <!-- margem dos botoes -->
+    </style>
+
+    <!-- botões de operação herdam as configurações do container -->
+    <style name="Operators_Button" parent="Container_Button">
+        <item name="android:background">@color/orange</item> <!-- botoes de operação terão a cor laranja -->
+        <item name="android:textColor">@color/white</item> <!-- letras na cor branca -->
+    </style>
+
+    <!-- botões de numericos tb herdam as configurações do container -->
+    <style name="Numbers_Button" parent="Container_Button">
+        <item name="android:background">@drawable/botao_numero_clicado</item> <!-- botoes numericos terão a cor branca -->
+        <item name="android:textColor">@color/black</item> <!-- letras na cor preta -->
+    </style>
+
+</resources>
