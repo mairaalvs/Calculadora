@@ -8,8 +8,13 @@ Maíra Alves Chagas &
 Tainara de Cássia Martins
 
 ### Ferramentas 💻🖱️
+
 Para elaboração  do projeto foi utilizada a linguagem JAVA;
+
+O Framwork utilizado foi o Junit;
+
 Para gerência de dependências utilizou-se o Gradle;
+
 Utilizou-se a IDE Android Studio.
 
 ### Instalação 🖥️
@@ -23,5 +28,7 @@ Para executar o código em sua máquina, basta clonar esse repositório para a I
 ### Executar um app no Android Emulator:
 
 1-No Android Studio, crie um Dispositivo virtual Android (AVD) que o emulador possa usar para instalar e executar seu app.
+
 2-Na barra de ferramentas, selecione o AVD em que você quer executar o app no menu suspenso do dispositivo de destino.
+
 3-Clique em Run
